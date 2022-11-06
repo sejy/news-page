@@ -49,7 +49,7 @@ header{
 }
 /* hero section styling*/
 .hero{
-    height: 84vh;
+    /* height: 84vh; */
     margin-bottom: 2em;
     display: grid;
     gap: 1.5em;
@@ -137,13 +137,16 @@ aside{
 }
 .card-section{
     display: flex;
+    max-width: 1200px;
+    margin:0 auto;
+    /* flex-wrap: wrap; */
     justify-content: space-evenly;
 }
 
 .card{
     display: flex;
     justify-content: space-between;
-    width: 33.3%;
+    /* width: 33.3%; */
 }
 .card-img{
     width: 130px;
@@ -157,7 +160,7 @@ aside{
     margin-right: 0;
 }
 .card-details{
-    height: 150px;
+    /* height: 150px; */
     margin-right: 1em;
 }
 .card-details:nth-of-type(3){
@@ -198,7 +201,8 @@ aside{
     }
     .hero{
         display: block;
-        height: 100vh;
+        /* height: 100vh; */
+        
     }
     .banner{
         display: none;
@@ -219,6 +223,9 @@ aside{
     .hero-content button{
         background-color: var(--Soft-red);
         margin-bottom:5em ;
+    }
+    .card-section{
+       flex-wrap: wrap
     }
 
 }
